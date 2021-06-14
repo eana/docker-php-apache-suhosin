@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:8.0-apache
 
 RUN set -xe && \
     echo "deb http://repo.suhosin.org/ debian-jessie main" > /etc/apt/sources.list.d/suhosin.list && \
